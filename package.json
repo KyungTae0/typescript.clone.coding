@@ -1,0 +1,31 @@
+{
+  "name": "typescript.clone.coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyungTae0/typescript.clone.coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyungTae0/typescript.clone.coding/issues"
+  },
+  "homepage": "https://github.com/KyungTae0/typescript.clone.coding#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "nodemon": "^2.0.18"
+  }
+}
